@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "bottleneck": "^2.13.0",
+    "loadtest": "^3.0.4",
     "sleep": "^5.2.3"
   }
 }
