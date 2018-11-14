@@ -20,3 +20,6 @@ services:
       - web-1
       - web-2
       - web-3
+    volumes:
+      # allows you to run docker commands inside container - https://medium.com/lucjuggery/about-var-run-docker-sock-3bfd276e12fd
+      - /var/run/docker.sock:/var/run/docker.sock
