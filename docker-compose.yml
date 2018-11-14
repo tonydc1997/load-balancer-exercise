@@ -12,3 +12,11 @@ services:
     build: . 
     ports:
     - 3002
+  load-balancer:
+    build: nginx/
+    ports:
+      - 80:80
+    links:
+      - web-1
+      - web-2
+      - web-3
