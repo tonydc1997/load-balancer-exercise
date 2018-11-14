@@ -3,15 +3,15 @@ services:
   web-1:
     build: . 
     ports:
-    - 3000
+      - 3000
   web-2:
     build: . 
     ports:
-    - 3001
+      - 3001
   web-3:
     build: . 
     ports:
-    - 3002
+      - 3002
   load-balancer:
     build: nginx/
     ports:
