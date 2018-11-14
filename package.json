@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bottleneck": "^2.13.0",
+    "sleep": "^5.2.3"
+  }
 }
